@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+	padding-top: 50px;
+}
+#mount-point {
+text-align: center;
+	color: white;
+}
+.actions {
+  text-align: center;
+}
+
+.cell {
+  background-image: url('../img/groot.jpg');
+  border: 2px solid black;
+
+  float: left;
+  height: 96px;
+  width: 96px;
+}
+.PC {
+  background-image: url('../img/zero.png');
+}
+
+.container {
+  margin: 50px auto;
+  width: 300px;
+}
+
+.cell:hover {
+  border-color: #ff9600;
+	border-radius: 10px;
+}
+
+.player {
+  background-image: url('../img/groot.png');
+}
